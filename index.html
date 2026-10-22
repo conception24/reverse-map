@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>リバースマップ — 南が上の世界地図</title><meta name="description" content="日本から始める、南が上の世界地図。日本語の地名で世界を眺めよう。"><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css"><link rel="stylesheet" href="./style.css"></head>
+<body><main id="map" aria-label="南が上の世界地図"></main>
+<header><div class="mark" aria-hidden="true">↓</div><div><h1>南が上の世界地図</h1><p>いつもの世界を、反対側から。</p></div></header>
+<nav aria-label="地図の操作"><button id="japan">日本へ戻る</button><button id="world">世界全体</button><span class="divider"></span><button id="plus" aria-label="拡大">＋</button><button id="minus" aria-label="縮小">−</button></nav>
+<aside class="compass" aria-label="上が南、下が北、左が東、右が西"><span class="south">南</span><span class="east">東</span><span class="needle">↑<br>│</span><span class="west">西</span><span class="north">北</span></aside>
+<div id="status" role="status">地図を読み込んでいます…</div>
+<footer><span>ドラッグで移動 · スクロール／ピンチで拡大</span><details><summary>この地図について</summary><p>南が上、東が左の地図です。地名は日本語を優先し、日本語名がない場所は現地名や英語を表示します。拡大すると町・道路などが現れます。</p><p>地図データの読み込みにはインターネット接続が必要です。国境や地名は配信元のデータに基づきます。</p></details></footer>
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script><script src="./app.js"></script></body></html>
+
